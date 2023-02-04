@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 </head>
 <body>
-    <h1> Hello, I am Rijan Maharjan.</h1>
-    <span>I am learning Github.</span>
-     <div class="left">
-            <h2>Name : Rijan Maharjan</h2>
-            <h4>Birth Place : <i>Chandragiri-05, Kisipide, Kathmandu</i></h4>
-            <h4>Address : <i>Chandragiri-05, Kisipide, Kathmandu</i></h4>
-            <h4>School : <i>Mount Sagarmatha Brilliant's Academy, SEE </i></h4>
-            <h4>Collage : <em>Viswa Niketan Secondary School, +2(Science)</em></h4>
-            <h4>Contact : <em>rijanq0@gmail.com</em></h4>
+    <header>
+        <nav>
+        <div class="logo">
+                MAHARJAN
+            </div>
+            <div class="menu">
+            <a href="#"><i class="fa fa-home"></i>Home</a>
+            <a href="#"><i class="fa fa-user"></i>About</a>
+            <a href="#"><i class="fa fa-book"></i>Portfoli</a>
+            <a href="#"><i class="fa fa-lock"></i>Gallery</a>
+            <a href="#"><i class="fa fa-phone"></i>Contact</a>
         </div>
+        <div class="s-icon">
+            <a href="https://www.facebook.com/rijan.maharajan"><i class="fa fa-facebook" ></i></a>
+            <a href="https://www.youtube.com/channel/UCeJAoWSUp0LrXbThO81h8dg"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/rijan.maharajan"><i class="fa fa-instagram"></i></a>
+           <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp"></i></a> 
+        </div>
+        </nav>
+    </header>
+    <script>
+        gsap.from('nav', {duration: 2, x: '-100%'});
+        gasp.from('.menu', {duration: 3, delay: '2', x:'0%', opacity: '0'});
+        gasp.from('.s-icon', {duration:2, y:'100%', delay:'3'});
+    </script>
 </body>
 </html>
