@@ -71,3 +71,6 @@ nav{
 .s-icon i:hover{
     transform: translateY(-20px);
 }
+.personal_details{
+    border: solid black;
+}
