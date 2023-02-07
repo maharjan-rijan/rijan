@@ -1,20 +1,73 @@
-h1{
-	background-color: red;
-	color: white;
-	font-family: sans-serif;
-	letter-spacing: 2px;
+*{padding: 0; margin: 0; box-sizing: border-box;
 }
-h2{
-	font-family: sans-serif;
+header{
+	width: 100%;
+	height: 100vh;
+	background:linear-gradient(90deg, rgba(14, 73, 90, 0.37), rgba(16, 70, 83, 0.39), rgba(2, 104, 10, 0.363)), url(rijan.jpg);
+	background-size: cover;
+}
+nav{
+	width: 25%;
+	height: 100vh;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 30px;
+}
+.logo{
+	font-size: 3em;
+	color: red;
+	letter-spacing: 5px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.menu a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+	padding: 10px 20px;
+	margin: 20px auto;
 	font-size: 20px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	transition: 0.4s ease;
 }
-table{
-	border:2px solid black;
+.menu{
+	padding: 50px;
 }
-td{
-	margin: 2px;
+.menu i{
+	margin: 0px 20px;
 }
-hr{
-	color: black;
-
+.menu a:first-child{
+	background-color: rgba(0, 255, 255, 0.397);
+}
+.menu a:hover{
+	background-color: aqua;
+}
+.s-icon{
+	position: absolute;
+	bottom: 10%;
+}
+.s-icon a{
+	color: white;
+	font-size: 20px;
+	margin: 0 10px;
+	padding: 10px;
+	border-radius: 100%;
+	cursor: pointer;
+	box-shadow: red;
+	transition: 0.5s ease;
+}
+.s-icon a:nth-child(1){
+	background-color: blue;
+}
+.s-icon a:nth-child(2){
+	background-color: red;
+}
+.s-icon a:nth-child(3){
+	background-color: rgb(124, 3, 148);
+}
+.s-icon a:nth-child(4){
+	background-color: Green;
+}
+.s-icon i:hover{
+	transform: translateY(-20px);
 }
